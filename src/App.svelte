@@ -1,14 +1,19 @@
 <script>
-  let count = 0;
+  let number = 1;
 
-  function increment () {
-    count ++;
+  function add5() {
+    number += 5;
   }
+
+  // This is a reactive variable
+  $: multiple = number * 2;
 </script>
 
 <main class="flex flex-col justify-center items-center h-screen space-y-4">
-  {count}
-  <button on:click={increment} class="btn">Button</button>
+  <p>The number is: {number}</p>
+  <button class="btn-primary" on:click={add5}>Add Five</button>
+
+  <p>The number multipled by 2 is {multiple}</p>
 </main>
 
 <style>
