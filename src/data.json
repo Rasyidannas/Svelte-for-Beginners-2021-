@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "author": "Rasyid",
+      "post": "This is some text"
+    },
+    {
+      "id": 2,
+      "author": "Ciko",
+      "post": "Let's give me feed"
+    },
+    {
+      "id": 3,
+      "author": "Annas",
+      "post": "This is random text"
+    }
+  ]
+}
